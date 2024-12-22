@@ -33,9 +33,6 @@ jobs:
     - name: Build Next.js app
       run: pnpm run build
 
-    - name: Export Next.js static site
-      run: pnpm run export
-
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
