@@ -52,7 +52,7 @@ export default function AppAppBar() {
       <Container maxWidth="lg">
         <StyledToolbar variant="dense" disableGutters>
           <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', px: 0 }}>
-            <Image
+            <img
       src="/icon128.png"
       alt="My image"
       width={48}  // specify the width
