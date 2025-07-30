@@ -19,10 +19,10 @@ export default function MarketingPage(props) {
       <div>
         {/* <LogoCollection /> */}
         <Divider />
-        <Privacy/>        
+        {/* <Privacy/>         */}
         <Divider />
         {/* <Divider />       
-        <Highlights />
+        // <Highlights />
 
         
         <Divider />
@@ -30,7 +30,7 @@ export default function MarketingPage(props) {
         {/* <Divider />
         <Pricing /> */}
         <Divider />
-        <PrivacyCard />
+        {/* <PrivacyCard /> */}
         <FAQ />
         <Divider />
         <Footer />

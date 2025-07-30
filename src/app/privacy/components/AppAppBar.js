@@ -33,7 +33,9 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 
 export default function AppAppBar() {
   const [open, setOpen] = React.useState(false);
-
+  const handleButtonClick = () => {
+      window.location.href = "http://localhost:3000/sign-in/";
+    };
   const toggleDrawer = (newOpen) => () => {
     setOpen(newOpen);
   };
@@ -86,7 +88,9 @@ export default function AppAppBar() {
               alignItems: 'center',
             }}
           >
-            <Button color="primary" variant="text" size="small">
+            <Button color="primary" variant="text" size="small"
+              onClick={handleButtonClick}
+            >
               Sign in
             </Button>
             <Button color="primary" variant="contained" size="small">
